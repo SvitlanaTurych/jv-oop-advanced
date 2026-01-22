@@ -1,8 +1,9 @@
 package core.basesyntax;
 
 public class Circle extends Figure {
-    private final double radius;
     private static final double PI = 3.14;
+
+    private final double radius;
 
     public Circle(String color, String name, double radius) {
         this.setColor(color);

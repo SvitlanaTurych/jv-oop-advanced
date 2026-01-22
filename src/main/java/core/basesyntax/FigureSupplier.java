@@ -3,9 +3,10 @@ package core.basesyntax;
 import java.util.Random;
 
 public class FigureSupplier {
-    private ColorSupplier colorSupplier;
     private static final int FIGURE_TYPES_COUNT = 5;
     private static final double COEFFICIENT = 20.0;
+
+    private ColorSupplier colorSupplier;
 
     public FigureSupplier(ColorSupplier colorSupplier) {
         this.colorSupplier = colorSupplier;
